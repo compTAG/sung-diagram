@@ -11,11 +11,13 @@ author: H. Bratterud, M. Burgess, B. T. Fasy, D. L. Millman, T. Oster, E. Sung
 
 # --- List of links in the navigation bar --- #
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  # About Me: "aboutme"
+  # Resources:
+  #   - title: Paper
+  #     url: "/assets/pdf/sung-diagram.pdf"
+  #   - title: Video
+  #     url: ""
+  # Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
