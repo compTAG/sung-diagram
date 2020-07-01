@@ -18,21 +18,23 @@ implementation in a web application.
   <tr>
     <th>Paper</th>
     <th>Video</th>
+    <th>App</th>
   </tr>
 
   <tr>
+
     <td>
       <a href={{ '/assets/pdf/sung-diagram.pdf' | absolute_url }}>
         <img
           src={{ '/assets/img/paper.jpg' | absolute_url }}
           alt="Sung diagram paper"
-          width="300">
+          width="250">
       </a>
     </td>
 
     <td>
       <iframe
-        width="300"
+        width="250"
         height="315"
         src="https://www.youtube.com/embed/M44p1xcOC48"
         frameborder="0"
@@ -40,5 +42,16 @@ implementation in a web application.
         allowfullscreen>
       </iframe>
     </td>
+
+    <td>
+      <a href="https://sungdiagram.herokuapp.com/">
+        <img
+          src={{ '/assets/img/app.png' | absolute_url }}
+          alt="Sung diagram paper"
+          width="250">
+      </a>
+    </td>
+
   </tr>
+
 </table>
