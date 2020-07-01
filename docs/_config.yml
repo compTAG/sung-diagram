@@ -13,9 +13,9 @@ author: H. Bratterud, M. Burgess, B. T. Fasy, D. L. Millman, T. Oster, E. Sung
 navbar-links:
   # About Me: "aboutme"
   Resources:
-    - Paper: "/assets/pdf/sung-diagram.pdf"
-    - Video: ""
-    - App: "https://sungdiagram.herokuapp.com/"
+    Paper: "/assets/pdf/sung-diagram.pdf"
+    Video: "https://www.youtube.com/embed/M44p1xcOC48"
+    App: "https://sungdiagram.herokuapp.com/"
   # Author's home: "https://deanattali.com"
 
 # --- Logo --- #

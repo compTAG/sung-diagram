@@ -13,18 +13,17 @@ that addresses the misleading suggestions illustrated with examples and
 implementation in a web application.
 
 
-{{site.navbar-links.Resources[0].Paper}}
 <table align="center">
   <tr>
-    <th>Paper</th>
-    <th>Video</th>
-    <th>App</th>
+    <th style="text-align:center">Paper</th>
+    <th style="text-align:center">Video</th>
+    <th style="text-align:center">App</th>
   </tr>
 
   <tr>
 
     <td>
-      <a href={{ '/assets/pdf/sung-diagram.pdf' | absolute_url }}>
+      <a href={{ site.navbar-links.Resources.Paper | absolute_url }}>
         <img
           src={{ '/assets/img/paper.jpg' | absolute_url }}
           alt="Sung diagram paper"
@@ -36,7 +35,7 @@ implementation in a web application.
       <iframe
         width="250"
         height="315"
-        src="https://www.youtube.com/embed/M44p1xcOC48"
+        src={{ site.navbar-links.Resources.Video | absolute_url }}>
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
@@ -44,7 +43,7 @@ implementation in a web application.
     </td>
 
     <td>
-      <a href="https://sungdiagram.herokuapp.com/">
+      <a href={{ site.navbar-links.Resources.App | absolute_url }}>
         <img
           src={{ '/assets/img/app.png' | absolute_url }}
           alt="Sung diagram paper"
